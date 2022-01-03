@@ -4,7 +4,7 @@
   <li><strong>Location:</strong> Kharkiv, Ukraine</li>
   <li><strong>Phone:</strong> +380 97 087-58-02</li>
   <li><strong>Email:</strong>theinsane.2002@gmail.com</li>
-  <li><strong>GitHub:</strong> <a href="https:/https://github.com/ev1lmoon">ev1lmoon</a></li>
+  <li><strong>GitHub:</strong> <a href="https://github.com/ev1lmoon">ev1lmoon</a></li>
 </ul>
 <h2 id="code-example"><strong>Code Example</strong></h2>
 <pre> ```javascript
