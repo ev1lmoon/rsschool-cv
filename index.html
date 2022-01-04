@@ -1,29 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-			<meta name="viewport" content="width=device-width, initial-scale=1.0">
-				<link rel="stylesheet" href="style.css">
-			<link rel="icon" href="zxc.ico">
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-	<title>cv</title>
+    <meta charset="UTF-8">
+    <title>cv</title>
+    <link rel="icon" href="zxc.ico">
 </head>
 <body>
-	<nav class="nav">
-        <ul class="nav-list">          
-          <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
-          <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
-          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>          
-          <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
-          <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
-          <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
-          <li class="nav-item"><a href="#english" class="nav-link">English</a></li>
-        </ul>
-      </nav> 
-	<h1 class=" main">Kulyk Dmytro</h1>
+    <header class="header">
+        <class="container">
+            <div class="header__container">
+                <div class="burger__btn">
+                    <div class="burger__line"></div>
+                    <div class="burger__line"></div>
+                    <div class="burger__line"></div>
+                </div>
+                <div class="header__photo">
+                    <img src="1.jpg" alt="photo" class="header__image"
+                    width="250"px height="250"px>
+                </div>
+                <div class="header__content">
+                    <nav class="header-menu">
+                        <ul class="header-menu__list">
+                            <li class="header-menu__item">
+                                <a href="#about" class="header-menu__link">About</a>
+                            </li>
+                            <li class="header-menu__item">
+                                <a href="#code" class="header-menu__link">Code</a>
+                            </li>
+                            <li class="header-menu__item">
+                                <a href="#skills" class="header-menu__link">Skills</a>
+                            </li>
+                            <li class="header-menu__item">
+                                <a href="#contacts" class="header-menu__link">Contacts</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="header__info">
+                        <h1 class="header__title">
+                            Kulyk Dmytro
+                        </h1>
 			<h3>Student</h3>
 			<section class="section" id="contacts">
 		  <h2 class="section-title">Contacts</h2>
@@ -41,19 +56,94 @@
 			  Telegram: <a href="https://t.me/KanekiMem" title="github">@KanekiMem</a>
 			</li>
 		  </ul> 
-		  <section class="section" id="code">
-			<h2 class="section-title">Code</h2>
-	<pre class="pre"><code>
-		function factorial(n) {
-	  if(n &lt; 0) return null;
-	  if (n &lt;= 1) return 1;
-	  return n * factorial(n-1);
-	  <pre>
-	  <section class="education" id="education"></section>
-			<h2 class="section-title">Education</h2>
-			<p>National Aerospace University ME Zhukovsky "Kharkiv Aviation Institute</p>
-			<section class="english" id="english"></section>
-			<h2 class="section-title">English</h2>
-			<p>B2 -Intermediate</p>	
+                        <h2 class="header__subtitle">
+                            Future front-end developer
+                        </h2>
+    </header>
+    <div class="main-content">
+        <div class="container">
+            <div class="main-content__container">
+                <aside class="aside">
+                    <section class="education">
+                        <h3 class="side__header">
+                            Education
+                        </h3>
+                        <div class="divider divider_yellow"></div>
+                        <div class="education__place">
+                            <div class="education__title">
+                                National Aerospace University ME Zhukovsky "Kharkiv Aviation Institute
+                            </div>
+                            <div class="education__descr">
+                                Software Engineering and Business
+                            </div>
+                        </div>
+                            <div class="education__descr">
+                                <a href="https://ru.code-basics.com/languages/html/" class="side__link" target="_blank">
+                                    HTML(in proccess...)
+                                </a>
+                               <p> <a href="https://ru.code-basics.com/languages/css" class="side__link" target="_blank">
+                                    CSS(in proccess...)
+                                </a></p>
+                            </div>
+                        <div class="divider divider_yellow"></div>
+                        <d class="education__place">
+                            <div class="education__title">
+                                RS School
+                            </div>
+                    </section>
+                    <section class="skills" id="skills">
+                        <h3 class="side__header">
+                            Skills
+                        </h3>
+                        <div class="divider divider_yellow"></div>
+                        <ul class="skills__list">
+                            <li class="skills__item skills__html">HTML</li>
+                            <li class="skills__item skills__github">GitHub</li>
+                        </ul>
+                    </section>
+                </aside>
+                <main class="main">
+                    <section class="main__about" id="about">
+                        <h3 class="main__header">
+                            About me
+                        </h3>
+                        <div class="divider divider_black"></div>
+                        <div class="main__descr">
+                            I am 19 years old, I`m Student. I think that my actual job will lead me to stagnation some day or other. I really need in activities where I can develop during my life. That is why I`m here. My goal is to gain knowledge in the field of front-end development.And I want to get at least some programming skills.
+                        </div>
+                        <article class="about-strengths">
+                            <h4 class="main__subheader">
+                                My strengths:
+                            </h4>
+                            <ul class="main__list">
+                                <li class="main__item">Quick learner</li>
+                                <li class="main__item">Team playing</li>
+                            </ul>
+                        </article>
+                        <article class="about-languages">
+                            <h4 class="main__subheader">
+                                Languages:
+                            </h4>
+                            <ul class="main__list">
+                                <li class="main__item">Ukrainian - native speaker</li>
+                                <li class="main__item">Russian - native speaker</li>
+                                <li class="main__item">English - A2 (B1 in proccess...)</li>
+                            </ul>
+                        </article>
+                    </section>
+                    <section class="code-example" id="code">
+                        <h3 class="main__header">
+                            Code example
+                        </h3>
+                        <div class="divider divider_black"></div>
+                        <pre class="pre">
+                            <code class="code">
+                                function factorial(n) {
+                                    if(n &lt; 0) return null;
+                                    if (n &lt;= 1) return 1;
+                                    return n * factorial(n-1);
+                            </code>
+                        </pre>
+                    </section>
 </body>
 </html>
